@@ -15,7 +15,7 @@ Simple and effective maintenance page for websites
 
      ```
      RewriteEngine On
-     RewriteRule . maintenance.php [L]
+     RewriteRule . maintenance.php [END]
      ```
 
    * Nginx (in `nginx.conf`)
